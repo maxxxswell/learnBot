@@ -15,7 +15,7 @@ export class CommandHandler {
     }
 
     async handle(prefix, msg) {
-        const wors = msg.content // .help moderation 2
+        const words = msg.content // .help moderation 2
             .slice(prefix.length) // help moderation 2
             .split(' '); // ['.help', 'moderation', '2']
 
