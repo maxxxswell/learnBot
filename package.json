@@ -1,7 +1,6 @@
 {
   "name": "learnbot",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -12,5 +11,15 @@
   "dependencies": {
     "discord.js": "^12.5.3",
     "dotenv": "^10.0.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxxxswell/learnBot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maxxxswell/learnBot/issues"
+  },
+  "homepage": "https://github.com/maxxxswell/learnBot#readme",
+  "description": ""
 }
