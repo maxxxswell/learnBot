@@ -3,4 +3,5 @@
 //git init - initialize a git repo
 //git add . - stages changes for commit
 //git commit -m "" - commits changes with a message
+// git remote add origin "GITHUB REPO URL"
 //git push origin master - pushes all staged-committed changes to GitHub repo
