@@ -1,4 +1,5 @@
 import Event from './event.js';
+import { CommandHandler } from '../command-handler.js';
 
 export default class extends Event {
     on = 'message';
