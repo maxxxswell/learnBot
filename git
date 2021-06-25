@@ -1,0 +1,6 @@
+//start with 'npm init' - starts discord.js
+//node src\bot.js - turns on bot
+//git init - initialize a git repo
+//git add . - stages changes for commit
+//git commit -m "" - commits changes with a message
+//git push origin master - pushes all staged-committed changes to GitHub repo

@@ -1,9 +1,3 @@
-//start with 'npm init' - starts discord.js
-//node src\bot.js - turns on bot
-//git add . - stages changes for commit
-//git commit -m "" - commits changes with a message
-
-
 import { config } from 'dotenv';
 config({path: '.env' });
 
