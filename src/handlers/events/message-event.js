@@ -6,7 +6,7 @@ export default class extends Event {
 
 constructor () {
   super();
-  this.commandHandler = new this .CommandHandler();
+  this.commandHandler = new CommandHandler();
 }
 
   async invoke (msg) {
