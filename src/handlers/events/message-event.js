@@ -12,8 +12,7 @@ constructor () {
   async invoke (msg) {
     if (!msg.guild || msg.author.bot) return;
 
-    const prefix = '.'
-  
+    const prefix = '.';
     if (msg.content.startsWith(prefix))
       return this.commandHandler.handle(prefix, msg);
     }
