@@ -6,6 +6,8 @@ import { EventHandler } from './handlers/event-handler.js';
 
 export const bot = new Client();
 
-new EventHandler().init;
+new EventHandler().init();
 
 bot.login(process.env.BOT_TOKEN);
+
+//test
