@@ -5,7 +5,7 @@ export default class extends Event {
 
 constructor () {
   super();
-  this.commandHandler = new this .commandHandler();
+  this.commandHandler = new this .CommandHandler();
 }
 
   async invoke (msg) {
