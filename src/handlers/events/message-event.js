@@ -3,9 +3,17 @@ import Event from './event.js';
 export default class extends Event {
     on = 'message';
 
-  async invoke (msg) {
-    if (msg.author.bot) return;
+constructor () {
+  super();
+  this.commandHandler = new this .commandHandler();
+}
 
-    await msg.reply('Okay.');
+  async invoke (msg) {
+    if (!msg.guild || msg.author.bot) return;
+
+    const prefix = '.'
+  
+    if (msg.content.startsWith(prefix))
+      return this.commandHandler.handle(prefix, msg);
     }
 }
